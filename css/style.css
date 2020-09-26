@@ -1,112 +1,109 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: hsl(217, 28%, 15%);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsl(217, 28%, 15%);
 }
 
 .navbar{
-    background-color: hsl(217, 28%, 15%);
-}
-
-.bg-image{
-    background: url(/img/bg-curvy-desktop.svg) no-repeat;
-    background-size: cover;
-}
-
-.footer .nav-link:hover{
-    text-decoration: underline;
-}
-
-.header{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
-
-.rounded-btn{
-    border-radius: 20px;
+  background-color: hsl(217, 28%, 15%);
 }
 
 .nav-logo img{
-    height: 30px;
+  height: 30px;
+}
+
+.header{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.bg-image{
+  background: url(../img/bg-curvy-desktop.svg) no-repeat;
+  background-size: cover;
+}
+
+
+.rounded-btn{
+  border-radius: 20px;
 }
 
 .grid{
-    background-color: hsl(218, 28%, 13%);
-    font-size: 10pt;
+  background-color: hsl(218, 28%, 13%);
+  font-size: 10pt;
 }
 
 .link{
-    border-bottom: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
 }
 
 .link:hover{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .symbol{
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 100px;
-    font-weight: 700;
-    color: aqua;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  color: aqua;
 }
 
 .card{
-    background-color:hsl(219, 30%, 18%)
+  background-color:hsl(219, 30%, 18%)
 }
 
 .card-place{
-    margin-top: -90px;
-    margin-left: 20px ;
+  margin-top: -90px;
 }
 
 .user-image{
-    display: inline-block;
-    height: 40px;
-    border-radius: 20px;
+  display: inline-block;
+  height: 40px;
+  border-radius: 20px;
 }
 
 .card-place-1{
-    margin-top: 60px;
-}
-
-form {
-    display:flex;
-    flex-direction:row;
-    width: 500px;
+  margin-top: 60px;
 }
 
 .comment{
-    margin-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .access-card{
-    margin-top: -100px;
-    background-color: hsl(217, 28%, 15%);
-    padding: 20px 35px 20px 35px;
-    box-shadow: 5px 5px 8px #000000;
+  margin-top: -100px;
+  background-color: hsl(217, 28%, 15%);
+  padding: 20px 35px 20px 35px;
+  box-shadow: 5px 5px 8px #000000;
 }
 
 .email{
-    flex: 0 0 60%;
-    margin-right: 20px;
-    border-radius: 20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .btn{
-    border-radius: 20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .footer{
-    background-color: hsl(216, 53%, 9%);
-    font-size: 10pt;
-    margin-top: -120px;
-    padding-bottom: 50px;
+  background-color: hsl(216, 53%, 9%);
+  font-size: 10pt;
+  margin-top: -120px;
+  padding-bottom: 50px;
 }
 
 .footer-logo{
-    margin-top: 200px;
-    margin-bottom: 30px;
+  margin-top: 200px;
+  margin-bottom: 30px;
 }
 
 .footer .nav-link i:hover{
-    opacity: 0.70;
+  opacity: 0.70;
+}
+
+.footer .nav-link:hover{
+  text-decoration: underline;
 }
